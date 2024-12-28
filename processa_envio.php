@@ -62,14 +62,6 @@
         //Recipients
         $mail->setFrom('webcompleto2@gmail.com', 'Remetente Web');
         $mail->addAddress($mensagem->__get('para'));     //Add a recipient
-        // $mail->addAddress('ellen@example.com');               //Name is optional
-        // $mail->addReplyTo('info@example.com', 'Information');
-        // $mail->addCC('cc@example.com');
-        // $mail->addBCC('bcc@example.com');
-
-        //Attachments
-        // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-        // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
